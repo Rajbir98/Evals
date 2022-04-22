@@ -1,0 +1,78 @@
+* {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border: none;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+body {
+    /* background: #1d1f31; */
+    background-image: linear-gradient(#fc384848, #27293fb9, #27292fb9), url(inspiration.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.calc {
+    display: inline-block;
+    background-color: #27293f;
+    width: 28.8rem;
+    height: 45rem;
+    transform: scale(0.8);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+table {
+    margin: auto;
+    background: #27293f;
+}
+
+input {
+    color: #ffd9e0;
+    background: linear-gradient(#fe3667, #fc3847);
+    border: none;
+    font-size: 7vh;
+    width: 28.8rem;
+    height: 14rem;
+}
+
+button {
+    font-size: 3.5vh;
+    background-color: #27293f;
+    background: transparent;
+    border: none;
+    width: 6.5rem;
+    height: 4.8rem;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#operator button {
+    color: #cccdd1;
+}
+
+#first td button {
+    color: #515579;
+}
+
+#numbers td:not(#operator) button {
+    color: #ad315e;
+}
