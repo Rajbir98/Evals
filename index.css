@@ -10,7 +10,7 @@
 }
 
 body {
-    /* background: #1d1f31; */
+    height: 100vh;
     background-image: linear-gradient(#fc384848, #27293fb9, #27292fb9), url(inspiration.png);
     background-position: center;
     background-size: cover;
