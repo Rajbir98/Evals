@@ -9,9 +9,11 @@
     font-family: 'Reem Kufi', sans-serif;
 }
 
+
+
 body {
-    height: 100vh;
     background-image: linear-gradient(#fc384848, #27293fb9, #27292fb9), url(inspiration.png);
+    height: 100vh;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -19,9 +21,6 @@ body {
     background-size: cover;
 }
 
-.container {
-    text-align: center;
-}
 
 .calc {
     display: inline-block;
@@ -75,4 +74,71 @@ button:active {
 
 #numbers td:not(#operator) button {
     color: #ad315e;
+}
+
+/*Mobile */
+@media only screen and (min-width: 300px) {
+    button {
+        font-size: 4vh;
+
+    }
+
+    .calc {
+        transform: scale(1.8);
+        float: center;
+    }
+
+    body {
+        transform: scale(0.3);
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    button {
+        font-size: 3vh;
+
+    }
+
+    .container {
+        transform: scale(1.5);
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    button {
+        font-size: 2vh;
+
+    }
+
+    .container {
+        transform: scale(3);
+        float: center;
+    }
+}
+
+/* Huge */
+@media only screen and (min-width: 1280px) {
+    button {
+        font-size: 3.6vh;
+
+    }
+
+    .container {
+        transform: scale(1.39);
+        float: center;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    button {
+        font-size: 2vh;
+
+    }
+
+    .container {
+        transform: scale(4);
+        float: center;
+    }
 }
